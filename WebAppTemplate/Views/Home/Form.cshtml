@@ -1,0 +1,20 @@
+﻿@model User
+
+<form method="post">
+    <label asp-for="FirstName">First Name:</label>
+    <input asp-for="FirstName"/>
+
+    <label asp-for="LastName">Last Name:</label>
+    <input asp-for="LastName"/>
+
+    <label asp-for="Email">Email:</label>
+    <input asp-for="Email"/>
+
+    <label asp-for="Gender">Select your gender:</label>
+    <select asp-for="Gender">
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>

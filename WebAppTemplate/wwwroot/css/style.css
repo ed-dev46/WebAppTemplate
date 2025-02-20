@@ -1,0 +1,93 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #242424;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    width: 100vw;
+    padding: 1rem;
+    background-color: lightcoral;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin-right: 3rem;
+}
+
+header nav ul li:last-of-type {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    color: #FFFFFF;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+form label:first-of-type {
+    margin: 0;
+}
+
+form input {
+    font-size: 3rem;
+}
+
+form select {
+    font-size: 3rem;
+}
+
+form button {
+    margin-top: 3rem;
+    font-size: 3rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: lightcoral;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
